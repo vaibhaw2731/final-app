@@ -1,0 +1,15 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["ms01-app-gateway"],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "OTQyMDQ3ZTZkMmMyMWM4NDhjZWNhZTc4M2I2MjRjMWY5ZWM0ZDE5ODI2NjA1MTY4MjVmOGVlMmY0NjU2MjczZjIxYzE0NGRmMDY4YWU5M2RmOGUyZmRlY2VjN2U0ODM3ZjhiNg==",
+    "dockerRepositoryName": "vaibhaw2731",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}

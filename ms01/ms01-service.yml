@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms01
+  namespace: default
+  labels:
+    app: ms01
+spec:
+  selector:
+    app: ms01
+  type: LoadBalancer
+  ports:
+    - name: http
+      port: 8080
